@@ -3,8 +3,8 @@ require 'sinatra/base'
 class App < Sinatra::Base
 
     set :views, Proc.new { File.join(root, "../views/") }
-    
-    get '/' do 
-      "hi"
+
+    get '/' do
+      erb :index
     end
 end
