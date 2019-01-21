@@ -1,5 +1,5 @@
 class Team
-  attr_accessor :namer, :motto
+  attr_accessor :name, :motto
   def initialize(params)
     @name = params[:name]
     @motto = [:motto]
