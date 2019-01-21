@@ -1,5 +1,5 @@
 class Member
-  attr_accessor :power, :bio
+  attr_accessor :power, :bio, :name
   @@all = []
   def initialize(params)
     @name = params[:name]
