@@ -1,7 +1,7 @@
 class Member
   attr_accessor :power, :bio
   @all = []
-  def initialize(power, bio)
+  def initialize(params)
     @power = power
     @bio = bio
     @@all << self
